@@ -1,1 +1,0 @@
-insert  into `user_detail`(`id`,`first_name`,`last_name`,`email`,`dob`) values (7,'John','Cena','john@cena.com','30-08-1986'),(8,'Randy','Orton','randy123@email.com','30-09-1991');
