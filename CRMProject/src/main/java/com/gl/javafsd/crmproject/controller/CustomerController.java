@@ -21,9 +21,9 @@ public class CustomerController {
 	@RequestMapping("/customerAdd")
 	public String handleBeginAdd(Model theModel) {
 
-		Customer student = new Customer();
+		Customer customer = new Customer();
 
-		theModel.addAttribute("student", student);
+		theModel.addAttribute("customer", customer);
 
 		return "customer-details";
 	}
